@@ -51,6 +51,8 @@ flutter:
   # the material Icons class.
   uses-material-design: true
   assets:
+    - assets/64x64/day/
+    - assets/64x64/night/
     - assets/icons/
     - assets/weather/
   # To add assets to your application, add an assets section, like this:

@@ -8,7 +8,7 @@ class WeatherDataCurrent {
 
 class Current {
   String? lastUpdated;
-  int? tempC;
+  double? tempC;
   Condition? condition;
   double? windKph;
   int? humidity;
@@ -25,7 +25,7 @@ class Current {
 
   factory Current.fromJson(Map<String, dynamic> json) => Current(
         lastUpdated: json['last_updated'] as String?,
-        tempC: json['temp_c'] as int?,
+        tempC: json['temp_c'] as double?,
         condition: json['condition'] == null
             ? null
             : Condition.fromJson(json['condition'] as Map<String, dynamic>),
