@@ -5,6 +5,8 @@ import '../controller/global_controller.dart';
 import 'package:get/get.dart';
 
 class HeaderWidget extends StatefulWidget {
+  const HeaderWidget({super.key});
+
   @override
   State<HeaderWidget> createState() => _HeaderWidgetState();
 }
